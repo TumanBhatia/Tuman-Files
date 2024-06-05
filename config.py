@@ -27,7 +27,7 @@ API_HASH = environ.get("API_HASH", "f199e74434dfa81f6ec26c8b7ed4655a")
 ADMINS = int(environ.get("ADMINS", "944416662"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
 DB_URI = environ.get("DB_URI", "mongodb+srv://Tuman:Mahipal@cluster0.cmhekdn.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
@@ -35,7 +35,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "7121414283:AAEiCnUwpMpQAucMMREe8_z9ldes-KHFEYs")
-BOT_USERNAME = environ.get("BOT_USERNAME", "tumanfilessbot) # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "tumanfilessbot" # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://graph.org/file/f5a26ac21b060d5787ea3.jpg https://graph.org/file/30539d8f1fc92423d6a19.jpg https://graph.org/file/701ff72fb43d85e073f03.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
